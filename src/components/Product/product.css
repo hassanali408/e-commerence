@@ -1,0 +1,226 @@
+.productPage{
+ display: flex;
+
+}
+
+.imageStyle{
+    background-color: '#f7f8fa';
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.imageStyle img{
+    width:90%; 
+    height:70%; 
+    background-color: #f7f8fa;
+}
+
+.imageStyle .description{
+    color: #272727;
+    font-size: 17px;
+    font-style: bold;
+    width: 96%;
+}
+
+.imageStyle .shippingText{
+    color:#56B280;
+    font-size:14px;
+    font-weight: bold;
+}
+.ItemsDetail{
+    margin-top: 60px;
+    position: relative;
+}
+
+.ItemsDetail .itemTitle{
+    text-align: left;
+    color: #272727;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.ItemsDetail .itemPrice{
+    text-align: left;
+    color: #56B280;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top:10px;
+}
+
+.quantityBox {
+    width: 60px;
+    margin-top: 25px;
+  }
+  
+  .quantityBox span {
+    height: 30px;
+    border: 0.5px solid #56B280;
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .quantityBox button {
+    border: none;
+    background: none;
+    color: #56B280;
+    font-size: 20px;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  
+  .quantityBox button:hover {
+    cursor: pointer;
+  }
+
+  .subscriptionBox {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    position: absolute;
+    top: 8%;
+    left: 32%;
+
+  }
+  
+  .radioButtons {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+  
+  .radioButtons label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  .radioButtons input[type="radio"] {
+    margin-right: 12px;
+  }
+
+  .radioButtons input[value="option1"] {
+    margin-left: 10px;
+  }
+
+  .subscribeOption{
+    padding: 10px;
+    border: 0.5px solid #E6E6E6;
+    border-radius: 7px;
+    box-sizing: border-box;
+
+  }
+  .subscribeOption label {
+    display: flex;
+    align-items: center;
+  }
+  
+
+  
+  .subscribeDiscount {
+    color: #818181;
+    font-size: 14px;
+    font-family: Helvetica;
+    font-weight: 400;
+    line-height: 14px;
+    word-wrap: break-word
+  }
+  
+  .addToCartBtn {
+    background: #56B280;
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    margin-top: 30px;
+  }
+  
+  .addToCartBtn:hover {
+    background: #4d9e71;
+  }
+
+
+  @media (max-width: 550px) {
+
+  
+  .imageStyle img{
+      height:20%; 
+  }
+  
+  .imageStyle .description{
+      font-size: 12px;
+
+  }
+  
+  .imageStyle .shippingText{
+      font-size:10px;
+  }
+
+  .ItemsDetail .itemTitle{
+
+    font-size: 14px;
+
+}
+
+.ItemsDetail .itemPrice{
+    font-size: 14px;
+}
+
+.quantityBox {
+  width: 40px;
+  margin-top: 10px;
+  font-size: 12px;
+}
+
+.quantityBox span {
+  height: 20px;
+  margin-top: 5px;
+}
+
+.quantityBox span .quantitystyle{
+  padding: 1;
+  font-size: 10px;
+}
+
+.quantityBox button {
+  font-size: 12px;
+margin-right: 0px;
+}
+
+
+
+
+.radioButtons label {
+  margin-bottom: 4px;
+  font-size: 10px;
+}
+
+.radioButtons input[type="radio"] {
+  margin-right: 2px;
+}
+
+.radioButtons input[value="option1"] {
+  margin-left: 3px;
+}
+.subscribeOption{
+  padding: 5px;
+  border-radius: 3px;
+
+}
+.subscribeOption label input {
+font-size: 10px;
+}
+
+.subscribeDiscount {
+  font-size: 10px;
+  line-height: 10px;
+}
+
+}
